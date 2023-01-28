@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: url(https://www.movilzona.es/app/uploads-movilzona.es/2021/10/pokemon-go.jpg?x=480&y=375&quality=40);
+    background-size: cover;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.rock {
+    background-color: rgb(148, 81, 81);
+}
+
+.ghost {
+    background-color: rgb(247, 247, 247);
+}
+
+.electric {
+    background-color: rgb(247, 247, 139);
+}
+
+.bug {
+    background-color: #F6D6A7;
+}
+
+.poison {
+    background-color: #e0a7f6;
+}
+
+.normal {
+    background-color: #F4F4F4;
+}
+
+.fairy {
+    background-color: rgba(255, 192, 203, 0.863);
+}
+
+.fire {
+    background-color: #cc7c6d;
+}
+
+.grass {
+    background-color: #9af197;
+}
+
+.water {
+    background-color: #a5d8fc;
+}
+
+.app-contaner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+    padding: 3rem 0.5rem;
+}
+
+.pokemon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.all-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.thumb-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 0;
+    margin: 0.3rem;
+    border: 1px solid #fc7171;
+    border-radius: 0.2rem;
+    min-width: 160px;
+    text-align: center;
+    box-shadow: 0 3px 15px rgb(231, 214, 214);
+}
+
+h3 {
+    margin-bottom: 0.2rem;
+}
+
+.thumb-container .number {
+    border-radius: 1rem;
+    padding: 0.2rem 0.4rem;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.thumb-container img {
+    width: 120px;
+    height: 120px;
+}
+
+.thumb-container small {
+    text-transform: capitalize;
+}
+
+.detail-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.detail-wrapper button {
+    color: rgb(22, 22, 22);
+    padding: .5rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+}
+
+.load-more {
+    background: #f1a9a9 linear-gradient(#f5f5f5, #f1f1f1) repeat-x;
+    border-radius: 2px;
+    border: 1px solid #c6c6c6;
+    color: #444;
+    padding: 0.5rem 1.5rem;
+    min-width: 50%;
+    margin-top: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 253, 253);
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(252, 66, 66);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+
+li a:hover {
+    background-color: rgb(245, 176, 176);
+}
+
+#imgpica {
+    width: 460px;
+    height: 450px;
+}
+
+#cara {
+    width: 412px;
+    height: 450px;
+}
+
+#yo {
+    height: 450px;
+}
+
+#hobbies {
+    background-color: #eb0303;
+    margin: 10rem;
+    padding: 1rem;
+    border: 6px solid rgb(26, 227, 245);
+    border-radius: 5%;
+    /* IMPORTANTE */
+    text-align: center;
+}
+
+#aboutme {
+    text-align: center;
+    position: inline-block;
+}
+
+.header {
+    text-align: center;
+    position: inline-block;
+    text-shadow: #ca351a;
+    color: #f85336;
+}
